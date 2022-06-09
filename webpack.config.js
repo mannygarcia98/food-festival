@@ -11,6 +11,7 @@ module.exports = {
     tickets: "./assets/js/tickets.js",
   },
   output: {
+    publicPath: "",
     path: path.resolve(__dirname, "dist"),
     filename: "[name].bundle.js",
   },
